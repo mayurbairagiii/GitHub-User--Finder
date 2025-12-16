@@ -114,4 +114,90 @@ button:hover {
 
 
 
+/* =========================
+   LAPTOP ↓ (max-width: 1024px)
+========================= */
+@media (max-width: 1024px) {
+
+  form {
+    width: 400px;
+  }
+
+  .card {
+    width: 450px;
+  }
+}
+
+/* =========================
+   TABLET ↓ (max-width: 768px)
+========================= */
+@media (max-width: 768px) {
+
+  main {
+    padding: 20px;
+  }
+
+  .topsec h1 {
+    font-size: 2em;
+  }
+
+  form {
+    width: 100%;
+    max-width: 380px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 420px;
+    gap: 20px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+/* =========================
+   MOBILE ↓ (max-width: 600px)
+========================= */
+@media (max-width: 600px) {
+
+  .topsec h1 {
+    font-size: 1.8em;
+  }
+
+  .detailsec h2 {
+    font-size: 18px;
+  }
+
+  .pp {
+    font-size: 13px;
+  }
+
+  .deep {
+    font-size: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+/* =========================
+   SMALL MOBILE ↓ (max-width: 360px)
+========================= */
+@media (max-width: 360px) {
+
+  form {
+    max-width: 260px;
+  }
+
+  .profile {
+    height: 60px;
+    width: 60px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}
+
 
